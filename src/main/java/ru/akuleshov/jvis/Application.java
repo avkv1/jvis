@@ -66,7 +66,7 @@ public class Application {
 
       TracedMethod tracedMethod =
           TracedMethod.builder()
-              .method(name)
+              .method(method.getName())
               .signature(sig)
               .input(parseMethodArgs(sig))
               .output(parseMethodOut(sig))
